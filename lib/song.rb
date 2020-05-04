@@ -22,6 +22,7 @@ def self.create
   end
   
   def self.create_by_name(name)
+    song =self.new
     
 
 
