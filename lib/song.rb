@@ -15,6 +15,7 @@ def create
   @@all << Song.all.include?(song)
 end
   
-  song = create_by_name
+  def new_by_name
+  song = new_by_name
 
 end
