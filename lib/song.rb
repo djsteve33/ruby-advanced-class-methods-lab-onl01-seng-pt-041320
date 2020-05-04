@@ -59,6 +59,8 @@ def self.find_or_create_by_name(name)
       song.artist_name = (name.split(" - ")[0])
       @@all << song
       song
+      
+      def 
     end
        
       
