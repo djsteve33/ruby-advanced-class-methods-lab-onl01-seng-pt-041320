@@ -46,7 +46,8 @@ def self.find_or_create_by_name(name)
       @@all.sort_by{|s| s.name}
     end
     
-    def self.new_from_filename
+    def self.new_from_filename("-.mp3")
+      
       
 
 end
