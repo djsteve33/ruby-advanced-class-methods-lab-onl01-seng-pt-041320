@@ -47,7 +47,8 @@ def self.find_or_create_by_name(name)
     end
     
     def self.new_from_filename(name)
-      song = song.new 
+      song = self.new 
+      
       
       
 
