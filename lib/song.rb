@@ -30,7 +30,7 @@ def self.create
   end
   
   def find_by_name(name)
-    @@all.find
+    @@all.find{|song|
 
 
 end
