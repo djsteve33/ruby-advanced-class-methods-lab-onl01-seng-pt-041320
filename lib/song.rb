@@ -48,7 +48,7 @@ def self.find_or_create_by_name(name)
     
     def self.new_from_filename(name)
       song = self.new 
-      song.name = {
+      song.name = {name.split
       
       
 
