@@ -30,7 +30,7 @@ def self.create
   end
   
   def find_by_name(name)
-    @@all.find{|song|
+    @@all.find{|song| song.name == name}
 
 
 end
