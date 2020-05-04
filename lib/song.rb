@@ -29,8 +29,8 @@ def self.create
     song
   end
   
-  def find_by_name(name)
-    @@all.find{|x| x.name == name}
+  def self.find_by_name(name)
+    @@all.find{|s| s.name == name}
   end 
 
 
