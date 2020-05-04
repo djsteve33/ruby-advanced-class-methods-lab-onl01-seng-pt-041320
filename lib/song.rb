@@ -11,6 +11,8 @@ class Song
   end
   
   song = Song.create
-  Song.all.include?
+  Song.all.include?(song)
+  
+  
 
 end
