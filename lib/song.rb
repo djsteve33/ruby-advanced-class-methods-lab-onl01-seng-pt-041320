@@ -12,7 +12,7 @@ class Song
   
 def create
   song = Song.create
-  Song.all.include?(song)
+  @@all << Song.all.include?(song)
 end
   
   song = create_by_name
