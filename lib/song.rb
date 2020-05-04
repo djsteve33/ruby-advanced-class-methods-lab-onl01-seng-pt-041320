@@ -24,13 +24,13 @@ def self.create
   
   def self.create_by_name(name)
     song =self.new
-    song.name= name
+    song.name = name
     @@all << song
     song
   end
   
   def find_by_name(name)
-    @@all.find{|song| song.name == name}
+    @@all.find {|song| song.name == name}
   end 
 
 
