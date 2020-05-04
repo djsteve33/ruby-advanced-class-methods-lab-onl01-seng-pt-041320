@@ -13,6 +13,6 @@ class Song
   song = Song.create
   Song.all.include?(song)
   
-  
+  song = create_by_name
 
 end
