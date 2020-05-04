@@ -60,7 +60,8 @@ def self.find_or_create_by_name(name)
       @@all << song
       song
       
-      def 
+      def self.destroy_all
+        
     end
        
       
