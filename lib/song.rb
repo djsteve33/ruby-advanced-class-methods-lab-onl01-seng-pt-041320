@@ -28,6 +28,9 @@ def self.create
     @@all << song
     song
   end
+  
+  def find_by_name(name)
+    
 
 
 end
