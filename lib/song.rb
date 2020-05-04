@@ -10,8 +10,10 @@ class Song
     self.class.all << self
   end
   
+def create
   song = Song.create
   Song.all.include?(song)
+end
   
   song = create_by_name
 
